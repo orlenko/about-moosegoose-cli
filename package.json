@@ -12,5 +12,8 @@
         "moose",
         "goose",
         "moose goose"
-    ]
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "orlenko/about-moosegoose-cli"
 }

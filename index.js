@@ -5,7 +5,7 @@ const clearConsole = require('clear-any-console');
 clearConsole();
 
 console.log(`
-Moose Goose eh
+Moose Goose eh!
 
 An amazing moose who is also an awesome goose.
 

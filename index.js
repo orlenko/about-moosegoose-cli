@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 console.log(`
-Moose Goose
+Moose Goose eh
 
 An amazing moose who is also an awesome goose.
 

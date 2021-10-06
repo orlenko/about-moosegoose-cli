@@ -1,11 +1,15 @@
-# This is an example README
+`npx about-moosegoose-cli`
 
-```python
+ -- or --
 
-from foo import bar
+`amg`
 
-print(bar)
+> Get to know the amazing Moose Goose using Node.js command line
 
+## Usage
+
+To use this CLI, run the following command:
+
+```sh
+npx about-moosegoose-cli
 ```
-
-now on branch foo

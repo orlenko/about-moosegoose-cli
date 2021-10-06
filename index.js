@@ -1,8 +1,20 @@
 #!/usr/bin/env node
 
-const clearConsole = require('clear-any-console');
+const welcome = require('cli-welcome');
+const packageInfo = require('./package.json');
 
-clearConsole();
+welcome({
+    title: packageInfo.name,
+    tagLine: 'wat',
+    description: packageInfo.description,
+    version: packageInfo.version,
+    bgColor: '#FFFF00',
+    color: '#00000',
+    clear: false,
+    bold: true
+});
+
+
 
 console.log(`
 Moose Goose eh!
@@ -10,7 +22,5 @@ Moose Goose eh!
 An amazing moose who is also an awesome goose.
 
 🪶 Twitter https://twitter.com/moosegoose21
-
-this is a trivial change, just to trigger the commit
 
 `);

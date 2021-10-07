@@ -2,6 +2,9 @@
 
 const welcome = require('cli-welcome');
 const packageInfo = require('./package.json');
+const chalk = require('chalk');
+
+const log = console.log;
 
 welcome({
     title: packageInfo.name,
@@ -16,11 +19,11 @@ welcome({
 
 
 
-console.log(`
-Moose Goose eh!
+log(`
+${chalk.bgBlue(' Moose Goose ')}
 
-An amazing moose who is also an awesome goose.
+${chalk.dim('An amazing moose who is also an awesome goose.')}
 
-🪶 Twitter https://twitter.com/moosegoose21
+${chalk.hex('#1da1f2').inverse.bold(' 🪶 Twitter: ')} ${chalk.dim('https://twitter.com/moosegoose21')}
 
 `);
